@@ -1,26 +1,35 @@
 <!doctype html>
 <html lang="en">
 <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>MY FIBONACI SEQUENCE</title>
+    <title>ADAM FIBONACI SEQUENCE</title>
 </head>
-<body style="background-color:powderblue;">
+<body style="background-color:blue;">
 
-<h1 align="center">Adam Fibonaci Sequence Form</h1>
+
+<div class = "Header" STYLE="font-family: 'Courier New'"  >
+<h1 align="center" style="color:red" >Adam Fibonaci Sequence Form</h1>
+    </div>
 <form>
 
     <div class="form-group" align="center">
         <input class="quantity" min="0" type="number" pattern="[0-9]" name="quantity">
-        <button type="submit" class="btn btn-primary">Oblicz</button>
+        <button type="submit" class="btn btn-primary">CALCULATE</button>
     </div>
 
 
 </form>
+<div class = "info" align = "center" >
+<span style="font-family: Arial " a >Enter the number and you will get this element
+    of the fibonaci sequence and all elemets from 1 to the given element. </span>
+</div>
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
